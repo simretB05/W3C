@@ -19,17 +19,21 @@ body {
   padding: 0 20px;
   color: #6e4a9e;
 }
-.nav {
+nav {
   display: grid;
   width: 100%;
   justify-self: self-end;
   font-size: 1.2rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  justify-items: end;
+  align-items: center;
 }
 a {
   text-decoration: none;
 }
 .nav a {
-  justify-self: self-end;
+  justify-self: end;
+  align-self: end;
   color: #6e4a9e;
   font-weight: 900;
   padding: 0 20px;
