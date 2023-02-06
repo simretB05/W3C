@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+#header {
+  background-color: #f8f4f0;
+  min-height: 10vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  place-items: center;
+}
+
+.logo {
+  justify-self: start;
+  padding: 0 20px;
+  color: #6e4a9e;
+}
+.nav {
+  display: grid;
+  width: 100%;
+  justify-self: self-end;
+  font-size: 1.2rem;
+}
+.nav a {
+  text-decoration: none;
+  justify-self: self-end;
+  color: #6e4a9e;
+  font-weight: 900;
+  padding: 0 20px;
+}
