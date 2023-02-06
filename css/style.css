@@ -25,8 +25,10 @@ body {
   justify-self: self-end;
   font-size: 1.2rem;
 }
-.nav a {
+a {
   text-decoration: none;
+}
+.nav a {
   justify-self: self-end;
   color: #6e4a9e;
   font-weight: 900;
@@ -35,7 +37,7 @@ body {
 #main-discription {
   min-height: 70vh;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 20px;
   padding: 20px;
   place-items: start;
@@ -43,31 +45,34 @@ body {
 .main-highlight {
   background-color: #ecedef;
   width: 100%;
-  height: 80%;
+  height: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 .main-img {
   width: 100%;
-  height: 100%;
   object-fit: cover;
+  align-self: center;
 }
 .main-card {
   width: 100%;
+  height: 100%;
   display: grid;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
 }
 .main-title {
   color: #6e4a9e;
   justify-self: center;
   align-self: center;
+  font-size: 1em;
 }
 
 .main-card > .main-body {
   width: 90%;
   font-size: 0.62em;
   letter-spacing: 0.07em;
-  line-height: 1.4em;
+  line-height: 1.5em;
   font-weight: 400;
   justify-self: center;
   align-self: start;
@@ -80,37 +85,40 @@ body {
   align-self: start;
   width: 90%;
   color: #6e4a9e;
+  font-size: 1em;
 }
 
 .purpose-highlight {
   background-color: #ecedef;
   width: 100%;
-  height: 80%;
+  height: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 .purpose-img {
   width: 100%;
-  height: 100%;
   object-fit: cover;
+  align-self: center;
 }
 .purpose-card {
   width: 100%;
+  height: 100%;
   display: grid;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
 }
 .purpose-title {
-  width: 90%;
   color: #6e4a9e;
   justify-self: center;
   align-self: center;
+  font-size: 1em;
 }
 
 .purpose-card > .purpose-body {
   width: 90%;
   font-size: 0.62em;
   letter-spacing: 0.07em;
-  line-height: 1.4em;
+  line-height: 1.5em;
   font-weight: 400;
   justify-self: center;
   align-self: start;
@@ -121,11 +129,60 @@ body {
   background-color: #f8f4f0;
   display: grid;
   grid-auto-flow: column;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  font-size: 1.7rem;
   place-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
 }
 .footer-card {
   width: 90%;
+  height: 60%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+.social,
+.contact,
+.news-letter {
+  width: 100%;
+  min-height: 70%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+#footer h3,
+button,
+.social-media {
+  color: #6e4a9e;
+  font-size: 0.6em;
+  text-align: center;
+  font-weight: 900;
+}
+
+#footer h3 {
+  font-size: 0.8em;
+}
+.social-nav {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.btn-holder {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+}
+button {
+  background-color: #6e4a9e;
+  color: #ecedef;
+  width: 70%;
+  text-align: center;
+  border: none;
+  border-radius: 15px;
+  padding: 7px;
+  margin: 10px;
 }
