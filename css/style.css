@@ -24,6 +24,8 @@ body {
   width: 100%;
   justify-self: self-end;
   font-size: 1.2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  place-items: center;
 }
 a {
   text-decoration: none;
@@ -135,7 +137,7 @@ a {
 }
 .footer-card {
   width: 90%;
-  height: 60%;
+  height: 100%;
   display: grid;
   place-items: center;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -161,6 +163,8 @@ button,
 
 #footer h3 {
   font-size: 0.8em;
+  justify-self: center;
+  align-self: end;
 }
 .social-nav {
   width: 100%;

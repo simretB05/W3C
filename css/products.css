@@ -135,7 +135,7 @@ a {
 }
 .footer-card {
   width: 90%;
-  height: 60%;
+  height: 100%;
   display: grid;
   place-items: center;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
