@@ -159,3 +159,6 @@ button {
   padding: 5.9px;
   margin: 10px;
 }
+button a {
+  color: #ecedef;
+}
