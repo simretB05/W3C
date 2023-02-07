@@ -17,11 +17,10 @@ body {
 .logo {
   justify-self: start;
   padding: 0 20px;
-  color: #6e4a9e;
 }
 nav {
   display: grid;
-  width: 100%;
+  width: 60%;
   justify-self: self-end;
   font-size: 1.2rem;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -30,11 +29,10 @@ nav {
 }
 a {
   text-decoration: none;
+  color: #6e4a9e;
 }
 .nav a {
   justify-self: end;
-  align-self: end;
-  color: #6e4a9e;
   font-weight: 900;
   padding: 0 20px;
 }
@@ -90,6 +88,7 @@ a {
   justify-self: center;
   align-self: center;
   font-size: 1em;
+  text-transform: uppercase;
 }
 
 .store-card > p {
@@ -97,10 +96,11 @@ a {
   font-size: 0.62em;
   letter-spacing: 0.07em;
   line-height: 1.5em;
-  font-weight: 400;
+  font-weight: 900;
   justify-self: center;
   align-self: start;
   color: #6e4a9e;
+  text-transform: uppercase;
 }
 #footer {
   min-height: 20vh;
@@ -162,7 +162,7 @@ button {
   width: 70%;
   text-align: center;
   border: none;
-  border-radius: 15px;
+  border-radius: 10px;
   padding: 7px;
   margin: 10px;
 }

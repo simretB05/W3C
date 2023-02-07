@@ -17,24 +17,23 @@ body {
 .logo {
   justify-self: start;
   padding: 0 20px;
-  color: #6e4a9e;
 }
+
 .nav {
   display: grid;
-  width: 100%;
-  justify-self: self-end;
+  width: 60%;
+  justify-self: end;
   font-size: 1.2rem;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   justify-items: end;
-  align-items: center;
+  align-items: ce;
 }
 a {
   text-decoration: none;
+  color: #6e4a9e;
 }
 .nav a {
   justify-self: end;
-  align-self: end;
-  color: #6e4a9e;
   font-weight: 900;
   padding: 0 20px;
 }
@@ -70,6 +69,7 @@ a {
   justify-self: center;
   align-self: center;
   font-size: 1em;
+  padding-top: 1rem;
 }
 
 .main-card > .main-body {
@@ -81,6 +81,7 @@ a {
   justify-self: center;
   align-self: start;
   color: #6e4a9e;
+  padding-bottom: 1rem;
 }
 
 .main-price {
@@ -89,7 +90,8 @@ a {
   align-self: start;
   width: 90%;
   color: #6e4a9e;
-  font-size: 1em;
+  font-size: 0.7em;
+  padding: 1rem;
 }
 
 .purpose-highlight {
@@ -116,6 +118,7 @@ a {
   justify-self: center;
   align-self: center;
   font-size: 1em;
+  padding-top: 1rem;
 }
 
 .purpose-card > .purpose-body {
@@ -127,6 +130,7 @@ a {
   justify-self: center;
   align-self: start;
   color: #6e4a9e;
+  padding-bottom: 1rem;
 }
 #footer {
   min-height: 20vh;
@@ -186,7 +190,7 @@ button {
   width: 70%;
   text-align: center;
   border: none;
-  border-radius: 15px;
+  border-radius: 10px;
   padding: 7px;
   margin: 10px;
 }
