@@ -19,7 +19,7 @@ body {
   padding: 0 20px;
   color: #6e4a9e;
 }
-nav {
+.nav {
   display: grid;
   width: 100%;
   justify-self: self-end;
