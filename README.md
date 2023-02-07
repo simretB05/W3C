@@ -1,4 +1,6 @@
-# Welcome to My Essential Oils website!
+W3C
+
+# Welcome to our Essential Oils website!
 
 Our mission is to provide high-quality, pure, and natural essential oils to enhance your physical and emotional well-being. Our oils are sourced from sustainable and ethical sources and undergo rigorous testing to ensure their authenticity and purity.
 
