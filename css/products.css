@@ -74,7 +74,7 @@ a {
 
 .product-card > .product-body {
   width: 90%;
-  font-size: 0.62em;
+  font-size: 0.72em;
   letter-spacing: 0.07em;
   line-height: 1.5em;
   font-weight: 400;
@@ -102,6 +102,7 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   font-size: 1.7rem;
   place-items: center;
+  padding: 1rem;
 }
 .footer-card {
   width: 90%;
