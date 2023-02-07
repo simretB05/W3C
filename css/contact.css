@@ -93,7 +93,7 @@ a {
 
 .store-card > p {
   width: 40%;
-  font-size: 0.62em;
+  font-size: 0.72em;
   letter-spacing: 0.07em;
   line-height: 1.5em;
   font-weight: 900;
@@ -132,13 +132,13 @@ a {
 button,
 .social-media {
   color: #6e4a9e;
-  font-size: 0.6em;
+  font-size: 1rem;
   text-align: center;
   font-weight: 900;
 }
 
 #footer h3 {
-  font-size: 0.8em;
+  font-size: 0.7em;
   justify-self: center;
   align-self: end;
 }
@@ -163,6 +163,6 @@ button {
   text-align: center;
   border: none;
   border-radius: 10px;
-  padding: 7px;
+  padding: 5.9px;
   margin: 10px;
 }
