@@ -18,31 +18,36 @@ body {
   justify-self: start;
   padding: 0 20px;
   text-align: center;
-  animation: rotate-change 2s infinite;
+  animation: rotate-change 5s infinite;
 }
 
 @keyframes rotate-change {
   0% {
-    transform: rotate(0deg);
+    transform: translateY(0) rotate(0deg);
     color: red;
   }
-  25% {
-    transform: rotate(360deg);
-    color: lime;
+  20% {
+    transform: translateY(100px) rotate(45deg);
+    color: blue;
   }
-  50% {
-    transform: rotate(720deg);
-    color: lightsalmon;
+  40% {
+    transform: translateY(200px) rotate(90deg);
+    color: green;
   }
-  75% {
-    transform: rotate(1080deg);
-    color: lightseagreen;
+  60% {
+    transform: translateY(300px) rotate(135deg);
+    color: yellow;
+  }
+  80% {
+    transform: translateY(400px) rotate(180deg);
+    color: pink;
   }
   100% {
-    transform: rotate(1440deg);
-    color: lightcoral;
+    transform: translateY(500px) rotate(225deg);
+    color: orange;
   }
 }
+
 .nav {
   display: grid;
   width: 60%;
