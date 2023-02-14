@@ -18,20 +18,31 @@ body {
   justify-self: start;
   padding: 0 20px;
   text-align: center;
-  animation: rotate 2s ease-in-out infinite;
+  animation: rotate-change 2s infinite;
 }
 
-@keyframes rotate {
+@keyframes rotate-change {
   0% {
     transform: rotate(0deg);
-    color: #6e4a9e;
-  }
-  100% {
-    transform: rotate(720deg);
     color: red;
   }
+  25% {
+    transform: rotate(360deg);
+    color: lime;
+  }
+  50% {
+    transform: rotate(720deg);
+    color: lightsalmon;
+  }
+  75% {
+    transform: rotate(1080deg);
+    color: lightseagreen;
+  }
+  100% {
+    transform: rotate(1440deg);
+    color: lightcoral;
+  }
 }
-
 .nav {
   display: grid;
   width: 60%;
@@ -46,6 +57,11 @@ a {
   text-decoration: none;
   color: #6e4a9e;
 }
+a:hover {
+  text-decoration: underline;
+  color: lightcoral;
+}
+
 .nav a {
   justify-self: end;
   font-weight: 900;
