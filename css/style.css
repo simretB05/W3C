@@ -18,6 +18,18 @@ body {
   justify-self: start;
   padding: 0 20px;
   text-align: center;
+  animation: rotate 2s ease-in-out infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+    color: #6e4a9e;
+  }
+  100% {
+    transform: rotate(720deg);
+    color: red;
+  }
 }
 
 .nav {
@@ -39,6 +51,55 @@ a {
   font-weight: 900;
 }
 #main-discription {
+  display: grid;
+  place-items: center;
+  margin: 32px;
+}
+.promo {
+  background-color: lightblue;
+  color: green;
+  font-weight: 2.5rem;
+  padding: 16px;
+
+  animation: color-change 2s ease-in-out 2s infinite alternate;
+}
+@keyframes color-change {
+  0% {
+    background-color: lightpink;
+  }
+  50% {
+    background-color: lightgreen;
+  }
+  100% {
+    background-color: lemonchiffon;
+  }
+}
+
+.discount {
+  animation-name: move-left-right;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+}
+@keyframes move-left-right {
+  0% {
+    color: #6e4a9e;
+    font-size: 0.5em;
+  }
+  20% {
+    color: rgb(214, 25, 88);
+    font-size: 1rem;
+  }
+  100% {
+    color: green;
+    font-size: 1.5rem;
+  }
+}
+
+.main-cardOne {
   min-height: 70vh;
   width: 90%;
   margin: 16px auto;
@@ -55,6 +116,9 @@ a {
   place-items: center;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
+.main-highlight:hover {
+  background-color: lightblue;
+}
 .main-img {
   width: 100%;
   object-fit: cover;
@@ -66,6 +130,7 @@ a {
   display: grid;
   font-size: 1.4rem;
 }
+
 .main-title {
   color: #6e4a9e;
   justify-self: center;
@@ -93,6 +158,11 @@ a {
   color: #6e4a9e;
   font-size: 0.7em;
   padding: 16px;
+  transform: translateX(-100%);
+  transition: all 1s ease-in-out;
+}
+.main-price:hover {
+  transform: translateX(0);
 }
 
 .purpose-highlight {
@@ -102,6 +172,9 @@ a {
   display: grid;
   place-items: center;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+.purpose-highlight:hover {
+  background-color: lightblue;
 }
 .purpose-img {
   width: 100%;
@@ -131,6 +204,10 @@ a {
   justify-self: center;
   align-self: start;
   color: #6e4a9e;
+}
+.main-card > .main-body:hover,
+.purpose-card > .purpose-body:hover {
+  color: red;
 }
 #footer {
   min-height: 20vh;
@@ -197,6 +274,17 @@ button {
   padding: 5.9px;
   margin: 10px;
 }
+button:hover {
+  background-color: lightblue;
+  color: green;
+}
+button:active {
+  box-shadow: 0 0 10px #333;
+  cursor: grab;
+}
 button a {
   color: #ecedef;
+}
+button a:hover {
+  color: red;
 }

@@ -56,11 +56,23 @@ a {
   margin: 16px;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
+.product-highlight:hover {
+  background-color: lightblue;
+}
 .product-img {
   width: 100%;
   object-fit: cover;
   align-self: start;
   justify-self: start;
+  animation: rotate-image 1s ease-in infinite;
+}
+@keyframes rotate-image {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
 }
 .product-card {
   width: 100%;
@@ -95,8 +107,13 @@ a {
   color: #6e4a9e;
   font-size: 0.7em;
   padding: 16px;
+  transform: translateX(-100%);
+  transition: all 1s ease-in-out;
 }
 
+.product-price:hover {
+  transform: translateX(0);
+}
 #footer {
   min-height: 20vh;
   background-color: #f8f4f0;

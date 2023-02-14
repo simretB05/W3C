@@ -102,6 +102,82 @@ a {
   align-self: start;
   color: #6e4a9e;
   text-transform: uppercase;
+  color: #000;
+  transition: color 0.3s ease-in-out;
+}
+
+.store-card:hover {
+  color: #f00;
+}
+
+.monday {
+  display: inline-block;
+  color: #000;
+  transition: color 0.3s ease-in-out;
+}
+
+.monday:hover {
+  color: #f00;
+}
+
+.tuesday {
+  display: inline-block;
+  color: #000;
+  transition: color 0.3s ease-in-out;
+}
+
+.tuesday:hover {
+  color: #f00;
+}
+
+.wednesday {
+  display: inline-block;
+  color: #000;
+  transition: color 0.3s ease-in-out;
+}
+
+.wednesday:hover {
+  color: #f00;
+}
+
+.thursday {
+  display: inline-block;
+  color: #000;
+  transition: color 0.3s ease-in-out;
+}
+
+.thursday:hover {
+  color: #f00;
+}
+
+.friday {
+  display: inline-block;
+  color: #000;
+  transition: color 0.3s ease-in-out;
+}
+
+.friday:hover {
+  color: #f00;
+}
+
+.saturday {
+  display: inline-block;
+  color: #000;
+  transition: color 0.3s ease-in-out;
+}
+
+.saturday:hover {
+  color: #f00;
+}
+
+.sunday {
+  display: inline-block;
+  color: #000;
+  transition: color 0.3s ease-in-out;
+}
+
+.sunday:hover {
+  color: #f00;
 }
 #footer {
   min-height: 20vh;
